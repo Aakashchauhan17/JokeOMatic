@@ -1,0 +1,26 @@
+
+    <StackLayout>
+        
+            <SegmentedBar [items]="myItems" (selectedIndexChange)="onSelectedIndexChange($event)" class="m-5"></SegmentedBar>
+        <StackLayout visibility="{{ visibility1 ? 'visible' : 'collapsed' }}">
+        <Label class="h1" text="Joke-O-Matic" color="steelblue"></Label>
+        <ListView [items]="jokes" (itemTap)="onItemTap($event)" class="list-group">
+                <ng-template let-country="item" let-i="index" let-odd="odd" let-even="even">
+                    <StackLayout orientation="horizontal" class="list-group-item">
+                        <Label text=" " textWrap="true"></Label>
+                        <Label textWrap="true" [text]="country.name"></Label>
+                    </StackLayout>
+                </ng-template>
+            </ListView>
+        </StackLayout>
+            <StackLayout visibility="{{ visibility2 ? 'visible' : 'collapsed' }}">
+                
+                <RadCartesianChart tkExampleTitle tkToggleNavButton height="90%">
+                        <CategoricalAxis tkCartesianHorizontalAxis></CategoricalAxis>
+                        <LinearAxis tkCartesianVerticalAxis></LinearAxis>
+                        <Trackball tkCartesianTrackball snapMode="AllClosestPoints" showIntersectionPoints="true" textWrap="true" (trackBallContentRequested)="onTrackBallContentRequested($event)"></Trackball>
+                        <BarSeries tkCartesianSeries [items]="myjokes" categoryProperty="jnum" valueProperty="average"></BarSeries>
+                    </RadCartesianChart>
+              </StackLayout>
+              
+    </StackLayout>

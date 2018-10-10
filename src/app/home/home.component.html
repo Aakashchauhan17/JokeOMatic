@@ -1,0 +1,18 @@
+
+<StackLayout>
+
+        <label></label>
+            <Label text="Pick the image processing source:" textWrap="true" color="steelblue" padding="10"></Label>
+          <label></label>
+            <FlexboxLayout flexDirection="row" justifyContent="space-around">
+              <Button text="Gallery" textWrap="true" (tap)="fromCameraroll()" class="button"></Button>
+              <iOS>
+                <Button text="Camera" textWrap="true" (tap)="fromCameraPicture()" class="button"></Button>
+              </iOS>
+            </FlexboxLayout>
+          
+            <Image [src]="pickedImage" width="240" horizontalAlignment="center" (tap)="reusePickedImage()"></Image>
+            <Progress [value]="progressValue" (loaded)="onProgressBarLoaded($event)" (valueChanged)="onValueChanged($event)" maxValue="1" class="m-20"></Progress>
+            <Label text="You found this joke {{confidence*100}}% funny. " padding="10" textWrap="true"></Label>
+      
+        </StackLayout>

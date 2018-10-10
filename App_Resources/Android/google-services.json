@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "966214889910",
+    "firebase_url": "https://aakash-demo-face.firebaseio.com",
+    "project_id": "aakash-demo-face",
+    "storage_bucket": "aakash-demo-face.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966214889910:android:0c7e7563fac3136d",
+        "android_client_info": {
+          "package_name": "org.nativescript.camac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966214889910-5uafndmc3dplm6sroqk3j12tohgeolnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGpWvYKBnfY6qjvW7h3MieDg_pX-T0LyE"
+        },
+        {
+          "current_key": "AIzaSyBGpWvYKBnfY6qjvW7h3MieDg_pX-T0LyE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

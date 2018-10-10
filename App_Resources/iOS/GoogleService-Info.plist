@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>966214889910-48k6ut4uumjqs54mdo5htm72irnu2e25.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.966214889910-48k6ut4uumjqs54mdo5htm72irnu2e25</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBC1JRoz3G_N5SaMPyp4zkTDE-3TXTEfC4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>966214889910</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.nativescript.camac</string>
+	<key>PROJECT_ID</key>
+	<string>aakash-demo-face</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aakash-demo-face.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:966214889910:ios:0c7e7563fac3136d</string>
+	<key>DATABASE_URL</key>
+	<string>https://aakash-demo-face.firebaseio.com</string>
+</dict>
+</plist>
